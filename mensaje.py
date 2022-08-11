@@ -169,12 +169,12 @@ def menu():
     print(f"{color.morado}TE GUSTARIA MANDAR UN SMS ANONIMO")
     print("")
     print(f"{color.verde}[1]MANDAR MENSAJE")
-    print(f"{color.rojo}[2]SALIR{color.fin}")
+    print(f"{color.rojo}[0]SALIR{color.fin}")
     print()
     eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
      mensaje()
-    elif eleccion == "2" :
+    elif eleccion == "0" :
      banner
      salir() 
     else:
