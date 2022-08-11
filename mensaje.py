@@ -1,4 +1,4 @@
-import os, sys, time, 
+import os, sys, time
 while True:
  try:
   import requests
@@ -164,7 +164,7 @@ def menu():
     banner()
     carga()
     cabecera()
-    versión()
+    version()
     print(f"{color.morado}TE GUSTARIA MANDAR UN SMS ANONIMO")
     print("")
     print(f"{color.verde}[1]MANDAR MENSAJE")
