@@ -6,11 +6,11 @@ pkg install git
 pkg install python
 ```
 ```bash
-git clone https://github.com/Fenrir-00/investigar-web
+git clone https://github.com/Fenrir-00/mensaje_anonimo
 ```
 ```bash
-cd investigar-web
+cd mensaje_anonimo
 ```
 ```bash
-python3 proyecto.py
+python3 mensaje.py
 ```
