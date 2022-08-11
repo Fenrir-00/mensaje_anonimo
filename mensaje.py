@@ -165,6 +165,7 @@ def menu():
     carga()
     cabecera()
     version()
+    print()
     print(f"{color.morado}TE GUSTARIA MANDAR UN SMS ANONIMO")
     print("")
     print(f"{color.verde}[1]MANDAR MENSAJE")
