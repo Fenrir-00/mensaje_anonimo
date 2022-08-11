@@ -1,4 +1,10 @@
-import os, sys, time, requests
+import os, sys, time, 
+while True:
+ try:
+  import requests
+  break
+ except ModuleNotFoundError:
+  os.system("pip install requests")
 while True:
  try:
   from lolpython import lol_py
@@ -157,6 +163,8 @@ def menu():
     os.system("clear")
     banner()
     carga()
+    cabecera()
+    versión()
     print(f"{color.morado}TE GUSTARIA MANDAR UN SMS ANONIMO")
     print("")
     print(f"{color.verde}[1]MANDAR MENSAJE")
